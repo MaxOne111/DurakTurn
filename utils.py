@@ -1,6 +1,7 @@
 ﻿import random
 
-from user import User, Result
+from user import User
+from eresult import Result
 from turn import Turn
 from card import Card, ECardRank, ECardSuits
 

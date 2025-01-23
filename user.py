@@ -1,12 +1,5 @@
-from enum import Enum
-
 from card import Card
-
-
-class Result(Enum):
-    INPROGRESS = 0
-    VICTORY = 1
-    DEFEAT = 2
+from eresult import Result
 
 
 class User:
